@@ -2,7 +2,7 @@ INTAKE_PROMPT = """
 Extract lead information from the customer inquiry below.
 
 Return ONLY a JSON object with exactly these fields:
-{
+{{
   "name": "",
   "company": "",
   "email": "",
@@ -13,7 +13,7 @@ Return ONLY a JSON object with exactly these fields:
   "intent": "",
   "urgency": "",
   "missing_fields": []
-}
+}}
 
 Use empty strings when information is not provided.
 Do not invent information.
