@@ -43,7 +43,7 @@ Add your Groq API key in the Streamlit sidebar.
 
 ```toml
 GROQ_API_KEY = "your_groq_api_key"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 ```
 
 Do not put your real API key in GitHub.
