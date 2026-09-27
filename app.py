@@ -23,7 +23,7 @@ st.caption("Simple Agentic AI Sales & Business Automation MVP")
 with st.sidebar:
     st.header("Settings")
     api_key = st.text_input("Groq API Key", type="password", value=st.secrets.get("GROQ_API_KEY", ""))
-    model = st.text_input("Groq Model", value=st.secrets.get("GROQ_MODEL", "llama-3.3-70b-versatile"))
+    model = st.text_input("Groq Model", value=st.secrets.get("GROQ_MODEL", "openai/gpt-oss-120b"))
     st.divider()
     st.subheader("Knowledge Base")
     uploads = st.file_uploader("Upload company documents", type=["pdf", "txt"], accept_multiple_files=True)
