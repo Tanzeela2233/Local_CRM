@@ -1,4 +1,0 @@
-streamlit
-groq
-pypdf
-scikit-learn
